@@ -4,23 +4,23 @@ Getting a Gig: A Guide
 # Introduction
 
 Hey friends!
-This is a guide for getting a gig in college as a tech major.  I just graduated this past school year with 10 job offers after having 5 internships throughout my four years of college.  You can do that, too.  Because you're great.
+This is a guide for getting a gig in college as a tech major.  I graduated May 2014 with 10 job offers after having 5 internships throughout my four years of college.  You can do that, too.  Because you're great.
 
 # Contents
 - Introduction (you read that already)
-- Your Resume
-- Your Cover Letter
-- Your Attitude
-- Your Skills
+- [Your Resume](#your-resume)
+- [Your Cover Letter](#your-cover-letter)
+- [Your Attitude](#your-attitude)
+- [Your Skills](#your-skills)
   - Building Them
   - Selling Them
-- Your Search
+- [Your Search](#your-search)
   - Events
   - Networking
   - Referrals
   - Cold Calling
   - Fellowships
-- Conclusion
+- [Conclusion](#conclusion)
 
 # Your Resume
 
@@ -32,16 +32,19 @@ Your name has to stand out from everything else, because you want it to be remem
 ### Remove the objective.
 Nobody looks at the objective.  Nobody.  I personally spoke to a bunch of recruiters from various companies and they all said that they never look at them.  Use that space to talk about projects you've done, activities you've done, etc.
 
+### Keep it to a single page.
+Recruiters are looking for a short summary of you.  They're reading several resumes a day, and if they see something longer than they typically read, they could pass over yours for something more concise!  If you'd like to say more, put a link to a personal website or portfolio for someone to find it.  A resume is a summary, not a tome.
+
 ### Remove irrelevant information.
 I know that lifeguarding in high school was a good gig that helped you gain people skills and attention to detail.  But you're in tech.  That doesn't matter as much to tech companies.  Sorry, buddy.  I still think you're great with people.
 When you're a first semester freshman, it's okay to have old high school stuff on there, just because it's less likely that you have other things to put on your resume.  But as soon as you have a college GPA to work with, a club or two, and some volunteer experiences to replace that, do it.
 
 ### Don't make it a scavenger hunt.
-When an application reviewer (engineer, recruiter, or otherwise) is looking over your resume, don't make it difficult for them to understand who you are and what you know. 
+When an application reviewer (engineer, recruiter, or otherwise) is looking over your resume, don't make it difficult for them to understand who you are and what you know.
 
 For example, if you have online profiles like GitHub, LinkedIn, Twitter, or even your own personal website, put it on your resume.  Don't make them have to search long and hard for you online if they want to know more!
 
-If you decide to put relevant coursework on your resume, **please**, don't just put course numbers.  Nobody knows what that means.  And nobody is going to go to your university's website to find out exactly what CS229 is.  Put down the course titles, instead!
+If you decide to put relevant coursework on your resume, **please**, don't just put course numbers.  Nobody knows what that means.  And nobody is going to go to your university's website to find out exactly what CS229 is.  Put down the course titles instead!
 
 And finally, put down your graduation date.  So many students I've seen don't put it on there because they are hiding the fact that they're a freshman, or they're "technically a junior if you count the credits."  That doesn't matter.  Trust me.  Just put down your graduation date so that the company knows how much experience you have, and how soon they can potentially pull you in for full-time.
 
@@ -57,17 +60,17 @@ Though there's some who might disagree, you should **include your GPA.**  If you
 
 Your cover letter is your written sales pitch.  You've got a resume that summarizes everything.  Now you have to write out a more complete, professional description of you and what you can offer a given company.  Here's a sample cover letter to get you started:
 
-```
-Dear _________,
 
-I hope your day is going well! My name is _________, and I'm a _________ at _________. I am very interested in working for _________ next _________. Your commitment to _________ and _________ that I saw on the website inspired me! The products you build and the values you stand for make _________ seem like an ideal workplace for me.
+> Dear _________,
+>
+> I hope your day is going well! My name is _________, and I'm a _________ at _________. I am very interested in working for _________ next _________. Your commitment to _________ and _________ that I saw on the website inspired me! The products you build and the values you stand for make _________ seem like an ideal workplace for me.
 A little about me, I [insert relevant work experience, extracurriculars, and projects here]. I think these experiences would make me a great candidate for you.
+>
+> Please let me know if there's anything else you need from me. I look forward to hearing from you! I can be reached at _________ and _________.
+>
+> Best regards,
+> _________
 
-Please let me know if there's anything else you need from me. I look forward to hearing from you! I can be reached at _________ and _________.
-
-Best regards,
-_________
-```
 Now, remember, this is just a sample.  You can write a cover letter in any format you'd like.  But, you should be sure to include the following:
 
 - **Who** - Who you are.  Easy enough.
@@ -97,17 +100,29 @@ Chances are, if you've had a data structures and/or algorithms class, you're alr
 
 Here's a checklist of things that you should probably be prepared to know in a technical interview:
 - Data types
-- Array
-- Linked List
+- Basic Bitwise Operations
+- String Operations
+- Arrays
+- Linked Lists
   - Singly Linked
   - Doubly Linked
   - Circular Linked
-- Queue
-- Stack
-- Binary Tree
-- Binary Search Tree
-- Heap
+- Queues
+- Stacks
+- Heaps
+- Trees
+  - Binary Trees
+  - Binary Search Trees
+  - Tries
+  - Self Balancing Trees
+- Traversing Trees
+  - Breadth First Search - BFS
+  - Depth First Search - DFS
+  - Preorder, Inorder, Postorder
 - Graphs
+  - Dijkstra's Algorithm / A* Search
+- Hash Maps
+  - Handling Collisions
 - Sorting algorithms
   - Insertion
   - Selection
@@ -115,22 +130,45 @@ Here's a checklist of things that you should probably be prepared to know in a t
   - Quick
 - Time Complexities
 
-This guide isn't for teaching you these skills.  But there are several out there that can help.
-- [Data Structures Questions](http://www.geeksforgeeks.org/data-structures/)
+This guide isn't for teaching you these skills.  But there are several guides, problem sets, and practice systems out there that can help.
+
+**General Guides**
 - [Sorting Algorithms](http://www.sorting-algorithms.com/)
 - [Big-O Cheat Sheet](http://bigocheatsheet.com/)
+- [Data Structures and Algorithms Overview](http://www.dsalgo.com/2013/02/index.php.html?m=1)
+- [Top 10 Algorithms for coding interviews](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
+
+**Problem Sets**
+- [Data Structures Questions](http://www.geeksforgeeks.org/data-structures/)
 - [FitCoding](http://www.fitcoding.com/)
 - [Google CodeJam Practice Questions](https://code.google.com/codejam/contests.html)
+- [InterviewBit](https://www.interviewbit.com/)
+- [Tech Interview Handbook - Algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms)
+
+**Online Judging Systems**
 - [LeetCode Online Judge](https://oj.leetcode.com/problemset/algorithms/)
-- [Data Structures and Algorithms Overview](http://www.dsalgo.com/2013/02/index.php.html?m=1)
-- [Algorithm Implementations](http://algorithm.zone/)
+- [HackerRank Online Judge](https://www.hackerrank.com/)
+- [Project Euler](https://projecteuler.net/)
+- [InterviewBit](https://www.interviewbit.com/)
+
+**Mock Interviews**
+- [Interviewing.io](https://interviewing.io/) - free
+- [Pramp](https://www.pramp.com) - free
+- [Careercup](http://www.careercup.com/interview) - paid
+- [Gainlo](http://www.gainlo.co/) - paid
+- [Impact Interview](http://www.impactinterview.com/software-engineering-interview-coaching/) - paid
 
 Here's some books that might also be useful.
-- [Algorithms, 4th edition, by Robert Sedgewick and Kevin Wayne](https://github.com/kasaquan/book/blob/master/Robert%20Sedgewick%20and%20Kevin%20Wayne%20-%20Algorithms%2C%204th%20edition.pdf)
+- [Algorithms, 4th edition, by Robert Sedgewick and Kevin Wayne](http://www.amazon.com/Algorithms-4th-Edition-Robert-Sedgewick/dp/032157351X)
+- [Introduction to Algorithms, 3rd Edition, by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein (also referred as CLRS)](http://www.amazon.com/Introduction-Algorithms-Edition-Thomas-Cormen/dp/0262033844)
 - [Think Complexity, by Allen B. Downey](http://greenteapress.com/complexity/thinkcomplexity.pdf)
 - [Problems on Algorithms, 2nd edition, by Ian Parberry and William Gasarch](http://larc.unt.edu/ian/books/free/poa.pdf)
+- [Data Structures and Algorithms in Java](http://rineshpk.weebly.com/uploads/1/8/2/0/1820991/data_structures_and_algorithms_in_javatqw_darksiderg.pdf)
+- [Cracking the Coding Interview, 6th edition, by Gayle Laakmann McDowell](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/ref=sr_1_1?ie=UTF8&qid=1443719471&sr=8-1&keywords=coding+interview)
 
 Typically, for an internship or your first job, questions won't get much more specific unless you're applying for a specific role.  For example, if I wanted to be a mobile intern, I might be asked iOS/Android/Windows Phone specific questions, or if I wanted to be a web intern, I might be asked HTML/CSS/JavaScript questions, or if I wanted to be a backend intern, I might be asked about Django or Node or Ruby on Rails.  That definitely depends on the company, and what you're both looking for.
+
+Make sure you're able to implement and use the above data structures without the assistance of an IDE. Typically, onsite technical interviews involve coding on paper or a whiteboard, and phone/video interviews usually involve some kind of collaborative text editor. Yes, that means you won't have access to auto-complete, auto-compiling, or the internet to check for errors. So be ready for that!
 
 ## Selling Them
 
@@ -143,7 +181,7 @@ When a recruiter or engineer is asking you about a certain project you've done, 
 For example, don't say, "I'm the webmaster for a club website. Next question."  Okay, Dwight Schrute.  Go back to your beet farm.  Instead, say something more like this: "I developed and currently maintain the website for my university's computer science club. I built it from the ground up with HTML, CSS, JavaScript, and jQuery on the front-end.  It's a static site, so a backend wasn't needed.  The website's main function is to promote the club and give members crucial updates about meetings and events, and I update it regularly via a Python script I wrote."  Oh my, you enchanting software engineer, you.  Let me hire you.
 
 When you're talking to companies about specific things you've done, make sure they know:
-- **What?** - What did you make?  What does it do?  What impact has it made?
+- **What?** - What? - What did you make? What does it do? What impact has it made? What was the hardest part? What could you have done better?
 - **Why?** - Why did you make it?  Was it for a hackathon, a school project, an open source contribution, or something else?
 - **How?** - With which technologies did you make this?  Did you use a specific API?  What parts of it did you work on?
 - **When?** - Did you do this recently or are you still living off of when you peaked in 10th grade?
@@ -195,7 +233,7 @@ Follow generally these steps (as casually or formally as the event calls for) wh
 
 4. Follow-up.  This is probably **the most important thing I will tell you in this whole guide.**  Hence the bold letters.  So pretty.  Anyway.  Following up is the guaranteed way of leaving an impression with someone.  Whether you email or tweet or InMail or Facebook message or pigeon mail, just sending a simple, "it was nice to meet you!" message is absolutely **vital** when it comes to networking.  I've actually heard stories of people changing their mind about hiring someone based on a follow-up message.  And following up doesn't stop at the "nice to meet you" message.  At some point down the line, it's great practice to send a "how are you doing?" message to someone you're interested in maintaining a relationship with.  For all three of my mentors that I had in college (and to this day), the way we built our relationship was through these sorts of follow-up messages.  **Do them.**
 
-Networking is building relationships, and what you can do with those relationships is up to you.  But we're talking about getting a job.  So let's move on to one of the best ways of getting one, with these relationships.
+Networking is about building relationships, and what you can do with those relationships is up to you.  But we're talking about getting a job.  So let's move on to one of the best ways of getting one, with these relationships.
 
 ## Referrals
 
@@ -218,25 +256,25 @@ Fellowships are a great way to network with a community and get valuable mentors
 
 Here's a list of some example fellowship programs.  This is by no means a complete list (feel free to send a pull request or file an issue if there's another you'd like to be added), but it should get you started!
 
+- [Cansbridge Fellowship](http://www.cansbridgefellowship.com/)
 - [CODE2040](http://code2040.org/)
 - [FirstMark Elite](http://firstmarkelite.com/)
-- [First Round Capital](http://www.university.firstround.com/)
+- [Ford-Mozilla Fellows](https://advocacy.mozilla.org/open-web-fellows/)
 - [hackNY Fellows](http://apply.hackny.org/)
+- [Horizons Fellowship](http://www.horizonsbootcamp.com/fellowship)
+- [Knight-Mozilla Fellows](https://opennews.org/what/fellowships/info/)
 - [KPCB Fellows](http://kpcbfellows.com/)
 - [Mayfield Fellows Program](http://stvp.stanford.edu/mayfield-fellows-program/)
-- [NYC Turing Fellows](http://nycturingfellows.org/)
 - [PennApps Fellows](http://www.pennappsfellows.com/)
 - [True Entrepreneur Corps](http://www.trueventures.com/tec/)
-- [Ford-Mozilla Fellows](https://advocacy.mozilla.org/open-web-fellows/)
-- [Knight-Mozilla Fellows](http://opennews.org/fellowships/)
+- [Venture for America](http://ventureforamerica.org/)
 
 In addition to these fellowships, several companies offer special programs for younger students that are similarly geared towards learning and mentorship.  Here's another list that is not complete, but will get you started:
 
-- [Microsoft Explore](http://careers.microsoft.com/careers/en/us/university-programs.aspx) (I'm biased because I did this one, but this program is AWESOME)
-- [Google Engineering Practicum](https://www.google.com/jobs/students/engpracticum)
+- [Microsoft Explore](https://careers.microsoft.com/students/explore) (I'm biased because I did this one, but this program is AWESOME)
+- [Google Engineering Practicum](https://careers.google.com/students/)
 - [Facebook University of Engineering](https://www.facebook.com/careers/university/fbueng)
-- [Intel IRISE](http://www.intel.com/content/www/us/en/jobs/locations/united-states/students/internships/intel-early-internship-software-engineering.html)
-- [Qualcomm EIP (Early Identification Program)](https://www.qualcomm.com/company/careers/interns)
+- [Pinterest Engage Software Engineer Intern](https://careers.pinterest.com/careers/details/pinterest-engage-software-engineer-intern_san-francisco_143952)
 
 # Conclusion
 
@@ -246,7 +284,7 @@ You are in an incredibly challenging field that forces you to think in ways that
 
 When I tell you to stay healthy, it's something that you might not consider when you're working until 3AM on a programming problem or trying to survive with 21 credits of technical classes.  We've all been there.  At times, it feels like it's the only way to get ahead.  But guess what: it's not!  Try to have a decent sleep schedule (as in, more than 3 hours a night) and eating schedule, too.  It'll keep you from burning out, and it's proven that it'll keep you alert and focused, which is essential for interview season!
 
-My favorite quote is from Helen Keller: "One can never consent to creep when one feels an impulse to soar." 
+My favorite quote is from Helen Keller: "One can never consent to creep when one feels an impulse to soar."
 Everyone wants to be great, in their own way.  When I say to "be yourself," I mean that I want you to show people who you are, what you're passionate about, and what you strive to be!  If you keep your personal goals in mind as you work towards them, everything will fall into place, and you can truly **soar** into a great career.
 
 Alright, I've said my piece.  Go get 'em.  I hope that you find this guide useful as you go out to create change and be the best that you can be!
